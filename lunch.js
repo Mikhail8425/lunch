@@ -22,7 +22,8 @@ const whatToDoForLunch = function(hungry, availableTime) {
     } else if ( availableTime > 30 ) {
       console.log("Reconsider your time")
     }
-  } else {
+  } else { 
+    
     console.log("Get back to work")
   }
 }
